@@ -1,0 +1,17 @@
+### 订阅
+ https://api.feixiongzhushou.com/link/JiaPH3WYTZUu8v2p?clash=3&extend=1
+ https://api.feixiongzhushou.com/link/JiaPH3WYTZUu8v2p?sub=3&extend=1
+
+### 此处填写京东账号cookie。
+pt_key=AAJgKQfoADAvDDNxgOpnkDl0tLFJme7nOcVs1isyeewQXP5072jsa1one9PfzHSf4tfLlfn96so;pt_pin=jd_411c062161a8d
+
+pt_key=AAJgF5nrADAdKq6fyCiBMLsAVPNJqEO07ccGd9vlw6-t_R-Ry50QP_EzQoUWTBXje4vazJH6jXA;pt_pin=jd_ZekmFMzoajME
+
+### 消息推送
+d590cfdcc9184970a122214b3166a0cd
+SCU105502T75d9a790236c08aaad98dbf04d3e204d5f0bfcdf15f73
+
+ww23f4d9e1098d8997,CT5SbluYdopCGMYJiLK-5oInhX8theAzXm6-7z1w_MM,admin|be4db884d7a378532a90f27630cce91b,1000002,2G091Ufb7nfpEFav-Cu0uxcT47hUVDHFIB-m0f2KCV-avcOIbCt-xYghFba676jW7
+
+ww23f4d9e1098d8997,CT5SbluYdopCGMYJiLK-5oInhX8theAzXm6-7z1w_MM,admin|be4db884d7a378532a90f27630cce91b,1000002,2EiMoLlJJ1jmyrm3_aiJ7QiVRwWnupcH_Ng_REC3j4BXZCcobLKt5MYYsl35Y4Vln
+
