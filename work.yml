@@ -23,7 +23,7 @@ jobs:
          username: ${{ secrets.username }}
 
        run: |
-         python3 ./Cloud189Checkin/C189CheckinForSCF.py
+         python3 SCF.py
          
 
 on:
