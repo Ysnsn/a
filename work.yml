@@ -1,0 +1,57 @@
+name: 'run'
+
+on:
+  schedule:
+    - cron: '30 16 * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: actions/checkout@v2
+     - name: 'setup python'
+       uses: actions/setup-python@master
+       with: 
+         python-version: 3.7
+     
+     - name: requirements
+       run : pip3 install -r requirements.txt
+       
+     - name: main
+       env:
+         SCKEY: ${{ secrets.SCKEY }}
+         username: ${{ secrets.username }}
+
+       run: |
+         python3 ./Cloud189Checkin/C189CheckinForSCF.py
+         
+
+on:
+    push:
+        branches:
+            - master
+    schedule:
+        - cron: '0 0 * * *'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout codes
+              uses: actions/checkout@v2
+            - name: Use Node.js
+              uses: actions/setup-node@v1
+              with:
+                node-version: '12.x'
+
+            - name: Run
+              run: npm install
+            - run: node zuimeiawallpaper.js
+            - name: Upload to this repo
+              run: |
+                git config --global user.name "Ysnsn"
+                git config --global user.email "wyang0558@gmail.com"
+                git add .
+                git commit -m 'upload daily zuimeia wallpaper' 
+                git push -u origin main
+
