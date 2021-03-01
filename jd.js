@@ -2,7 +2,9 @@
  https://api.feixiongzhushou.com/link/JiaPH3WYTZUu8v2p?clash=3&extend=1
  https://api.feixiongzhushou.com/link/JiaPH3WYTZUu8v2p?sub=3&extend=1
 
-### 此处填写京东账号cookie。
+### 此处填写京东账号
+git clone -b master https://gitee.com/lxk0301/jd_scripts
+
 pt_key=AAJgKQfoADAvDDNxgOpnkDl0tLFJme7nOcVs1isyeewQXP5072jsa1one9PfzHSf4tfLlfn96so;pt_pin=jd_411c062161a8d
 
 pt_key=AAJgF5nrADAdKq6fyCiBMLsAVPNJqEO07ccGd9vlw6-t_R-Ry50QP_EzQoUWTBXje4vazJH6jXA;pt_pin=jd_ZekmFMzoajME
