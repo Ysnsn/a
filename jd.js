@@ -5,9 +5,8 @@
 ### 此处填写京东账号
 git clone -b master https://gitee.com/lxk0301/jd_scripts
 
-pt_key=AAJgKQfoADAvDDNxgOpnkDl0tLFJme7nOcVs1isyeewQXP5072jsa1one9PfzHSf4tfLlfn96so;pt_pin=jd_411c062161a8d
-
-pt_key=AAJgF5nrADAdKq6fyCiBMLsAVPNJqEO07ccGd9vlw6-t_R-Ry50QP_EzQoUWTBXje4vazJH6jXA;pt_pin=jd_ZekmFMzoajME
+  'pt_key=AAJgKQfoADAvDDNxgOpnkDl0tLFJme7nOcVs1isyeewQXP5072jsa1one9PfzHSf4tfLlfn96so;pt_pin=jd_411c062161a8d;',
+  'pt_key=AAJgQJHbADD4kGGAQiAjmcqCPYsuD83CnWa7WHGEY80JDm-Re_mccXdR2aNFFav95Lc8rA05-dc;pt_pin=jd_ZekmFMzoajME;',
 
 ### 消息推送
 d590cfdcc9184970a122214b3166a0cd
