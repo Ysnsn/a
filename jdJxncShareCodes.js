@@ -13,8 +13,8 @@
 // 每个账号 shareCdoe 是一个 json，示例如下
 // {"smp":"22bdadsfaadsfadse8a","active":"jdnc_1_btorange210113_2","joinnum":"1"}
 let JxncShareCodes = [
-  '{"smp":"6be9c8fd02c0ae4e85768f5f362d9fd4","active":"jdnc_1_heimi210123_2","joinnum":1}@{"smp":"68440a9e0bab10a2e5cb90cd5023f774","active":"jdnc_1_xuelianguo210126_2","joinnum":1}',//账号一的好友shareCode,不同好友中间用@符号隔开
-  '{"smp":"6be9c8fd02c0ae4e85768f5f362d9fd4","active":"jdnc_1_heimi210123_2","joinnum":1}@{"smp":"68440a9e0bab10a2e5cb90cd5023f774","active":"jdnc_1_xuelianguo210126_2","joinnum":1}',//账号二的好友shareCode，不同好友中间用@符号隔开
+  '',//账号一的好友shareCode,不同好友中间用@符号隔开
+  '',//账号二的好友shareCode，不同好友中间用@符号隔开
 ]
 // 判断github action里面是否有京喜农场助力码
 if (process.env.JXNC_SHARECODES) {
@@ -27,8 +27,8 @@ if (process.env.JXNC_SHARECODES) {
   } else {
     JxncShareCodes = process.env.JXNC_SHARECODES.split();
   }
-} else if (process.env.JD_COOKIE) {
-  // console.log(`由于您secret里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
+} else {
+  console.log(`由于您环境变量里面(JXNC_SHARECODES)未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
 }
 for (let i = 0; i < JxncShareCodes.length; i++) {
   const index = (i + 1 === 1) ? '' : (i + 1);

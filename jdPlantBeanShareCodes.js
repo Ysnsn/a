@@ -8,7 +8,7 @@
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
 let PlantBeanShareCodes = [
   'h3cggkcy6agkhvjdnbdvejhi7mxmt522tioduly@nkiu2rskjyetbjpyxts2baq3fxs6ahqdljrb4ay@e7lhibzb3zek3lpsqv4ansrnoggucxpjy4cazay',//账号一的好友shareCode,不同好友中间用@符号隔开
-  'e7lhibzb3zek2lj32fan2xscpeeomkmdbx4azaq@nkiu2rskjyetbjpyxts2baq3fxs6ahqdljrb4ay@e7lhibzb3zek3lpsqv4ansrnoggucxpjy4cazay',//账号二的好友shareCode，不同好友中间用@符号隔开
+  'e7lhibzb3zek2lj32fan2xscpeeomkmdbx4azaq@nkiu2rskjyetbjpyxts2baq3fxs6ahqdljrb4ay@e7lhibzb3zek3lpsqv4ansrnoggucxpjy4cazay',
 ]
 
 // 从日志获取互助码
@@ -28,7 +28,7 @@ if (process.env.PLANT_BEAN_SHARECODES) {
   } else {
     PlantBeanShareCodes = process.env.PLANT_BEAN_SHARECODES.split();
   }
-} else if (process.env.JD_COOKIE) {
+} else {
   console.log(`由于您环境变量(PLANT_BEAN_SHARECODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
 }
 for (let i = 0; i < PlantBeanShareCodes.length; i++) {

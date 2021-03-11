@@ -8,7 +8,7 @@
 // 如: 京东账号1的shareCode1@京东账号1的shareCode2&京东账号2的shareCode1@京东账号2的shareCode2
 let FruitShareCodes = [
   'ed579db3d4a1473280596fc1b91375ab@eec0583d8c9c49fea8265ade1c6f4324@c3419bd3d68d46e9be072d00c60b369d',//账号一的好友shareCode,不同好友中间用@符号隔开
-  '5b77d1e3b0564c769c07042e02fd340f@c3419bd3d68d46e9be072d00c60b369d@eec0583d8c9c49fea8265ade1c6f4324',//账号二的好友shareCode，不同好友中间用@符号隔开
+  '5b77d1e3b0564c769c07042e02fd340f@c3419bd3d68d46e9be072d00c60b369d@eec0583d8c9c49fea8265ade1c6f4324',
 ]
 
 // 从日志获取互助码
@@ -28,7 +28,7 @@ if (process.env.FRUITSHARECODES) {
   } else {
     FruitShareCodes = process.env.FRUITSHARECODES.split();
   }
-} else if (process.env.JD_COOKIE) {
+} else {
   console.log(`由于您环境变量(FRUITSHARECODES)里面未提供助力码，故此处运行将会给脚本内置的码进行助力，请知晓！`)
 }
 for (let i = 0; i < FruitShareCodes.length; i++) {
