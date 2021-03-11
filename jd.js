@@ -10,7 +10,7 @@ git clone -b master https://gitee.com/lxk0301/jd_scripts
 
 ### 消息推送
 d590cfdcc9184970a122214b3166a0cd
-
+QYWX_KEY = 6b6834f1-c83b-4865-b980-e6e1800e2267
 SCU105502T75d9a790236c08aaad98dbf04d3e204d5f0bfcdf15f73
 SCT840TD53vIK8ZXgYHqcUNA17YAPyX
 
